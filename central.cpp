@@ -4,18 +4,6 @@ Central::Central(QWidget *parent)
     : QWidget{parent} {
     this -> setLayout(central_grid);
     make_widgets();
-
-    /*// Получение конфигурации SSL по умолчанию
-    QSslConfiguration sslConfig = QSslConfiguration::defaultConfiguration();
-
-    // Пример изменения конфигурации (если необходимо)
-    // sslConfig.addCaCertificate(QSslCertificate::fromPath("path/to/certificate.pem"));
-
-    // Установка измененной конфигурации как конфигурации по умолчанию
-    QSslConfiguration::setDefaultConfiguration(sslConfig);
-
-    // Проверка конфигурации
-    qDebug() << "Default SSL Configuration set.";*/
 }
 
 void Central::make_widgets () {
