@@ -13,12 +13,6 @@ void Central::make_widgets () {
         search_line -> setPlaceholderText("Type here...");
         button_first = new My_own_push_button (this, "Search");
         central_grid -> addWidget(button_first);
-        /*button_two = new My_own_push_button (this, "the second_button");
-        central_grid -> addWidget(button_two);
-        button_three = new My_own_push_button (this, "the third_button");
-        central_grid -> addWidget(button_three);
-        button_four = new My_own_push_button (this, "the fourth_button");
-        central_grid -> addWidget(button_four);*/
         central_grid -> addWidget(view);
         //view -> load(QUrl("http://government.ru"));
         view -> setHtml("<html>"
